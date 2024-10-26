@@ -1,6 +1,6 @@
 from data import DataCollatorForMambaDataset
 from tokenisation import detokenise_nt_seqs, tokenise_aa_seqs
-from mamba.mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
+from mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
 import torch
 import numpy as np
 
