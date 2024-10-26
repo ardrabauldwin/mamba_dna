@@ -10,8 +10,8 @@ import tensorflow as tf
 from trainer import MambaTrainer
 from transformers import TrainingArguments, OpenAIGPTConfig, OpenAIGPTLMHeadModel, GPTNeoConfig, GPTNeoForCausalLM
 from tokenisation import ALPHABET_SIZE, detokenise_nt_seqs, additional_aa_token_to_index
-from mamba.mamba.mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
-from mamba.mamba.mamba_ssm.models.config_mamba import MambaConfig
+from mamba.mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
+from mamba.mamba_ssm.models.config_mamba import MambaConfig
 from auxiliary_file import train_validate_test_split, compute_norm_levenshtein
 from data import MambaDataModule
 
