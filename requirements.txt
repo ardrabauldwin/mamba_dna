@@ -7,5 +7,4 @@ biotite
 scikit-learn
 Levenshtein
 wandb
-pip
-python 3.10.10
+
