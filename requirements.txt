@@ -1,0 +1,9 @@
+torch
+tensorflow
+numpy
+pandas
+transformers
+biotite
+scikit-learn
+Levenshtein
+wandb
